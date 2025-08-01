@@ -253,14 +253,7 @@ export default function Hero({ isDarkMode, scrollToSection, downloadResume }: He
               <Download className="mr-2 w-5 h-5" />
               Download Resume
             </Button>
-            <Button
-              asChild
-              className="px-8 py-4 text-lg font-semibold rounded-lg shadow-lg bg-purple-600 hover:bg-purple-700 text-white hover-lift"
-            >
-              <a href="/resume">
-                View Resume
-              </a>
-            </Button>
+
           </div>
 
           {/* Technologies */}
